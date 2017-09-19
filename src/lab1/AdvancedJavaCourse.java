@@ -6,10 +6,20 @@ package lab1;
  * @author Chad Werning
  * @version 1.00
  */
-public class AdvancedJavaCourse extends IntroJavaCourse {
+public class AdvancedJavaCourse extends SchoolCourse {
+
+    private String prerequisites;
 
     public AdvancedJavaCourse(String courseName, String courseNumber) {
         super(courseName, courseNumber);
+    }
+
+    public String getPrerequisites() {
+        return prerequisites;
+    }
+
+    public void setPrerequisites(String prerequisites) {
+        this.prerequisites = prerequisites;
     }
 
 }

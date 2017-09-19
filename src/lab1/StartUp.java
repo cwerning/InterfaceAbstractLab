@@ -19,6 +19,12 @@ public class StartUp {
         if the programmer doesn't realize the class has those methods already, they could over-write
         the method and not realize they're breaking the intended purpose of it.
         
+        I really wanted to extend AdvancedJavaCourse from IntroJavaCourse, but that would fail the
+        "Is a" test. It was just hard because I need all the same properties and methods, but it is
+        still the wrong abstraction. I guess it made sense when there could very well be 1000 more 
+        methods that wouldn't relate to eachother. It was just confusing because of the simplicity
+        of the classes as they are.
+        
         */
         
 
