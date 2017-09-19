@@ -11,7 +11,7 @@ package lab2;
  */
 public interface SchoolCourse {
 
-    public abstract void SchoolCourse(String courseName, String courseNumber);
+//    public abstract void SchoolCourse(String courseName, String courseNumber);
 
     public abstract String getCourseNumber();
 
