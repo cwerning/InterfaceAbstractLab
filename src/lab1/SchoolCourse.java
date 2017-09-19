@@ -22,6 +22,10 @@ public abstract class SchoolCourse {
         this.courseNumber = courseNumber;
     }
 
+    public SchoolCourse() {
+
+    }
+
     public String getCourseNumber() {
         return courseNumber;
     }
