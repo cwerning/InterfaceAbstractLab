@@ -19,6 +19,11 @@ public class IntroJavaCourse extends SchoolCourse {
     }
 
     public void setPrerequisites(String prerequisites) {
+        if (prerequisites == null || prerequisites.length() == 0) {
+
+            throw new IllegalArgumentException("Error: courseNumber cannot be null of empty string");
+
+        }
         this.prerequisites = prerequisites;
     }
 
