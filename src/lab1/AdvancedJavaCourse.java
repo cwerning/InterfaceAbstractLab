@@ -14,11 +14,11 @@ public class AdvancedJavaCourse extends SchoolCourse {
         super(courseName, courseNumber);
     }
 
-    public String getPrerequisites() {
+    public final String getPrerequisites() {
         return prerequisites;
     }
 
-    public void setPrerequisites(String prerequisites) {
+    public final void setPrerequisites(String prerequisites) {
         if (prerequisites == null || prerequisites.length() == 0) {
 
             throw new IllegalArgumentException("Error: courseNumber cannot be null of empty string");
