@@ -14,8 +14,11 @@ public class IntroJavaCourse implements SchoolCourse {
     private String prerequisites;
 
     public IntroJavaCourse(String courseName, String courseNumber) {
-        this.courseName = courseName;
-        this.courseNumber = courseNumber;
+        setCourseName(courseName);
+        setCourseNumber(courseNumber);
+
+//        this.courseName = courseName;
+//        this.courseNumber = courseNumber;
     }
 
     @Override

@@ -16,8 +16,8 @@ public abstract class SchoolCourse {
     private double credits;
 
     public SchoolCourse(String courseName, String courseNumber) {
-        this.courseName = courseName;
-        this.courseNumber = courseNumber;
+        setCourseName(courseName);
+        setCourseNumber(courseNumber);
     }
 
     public final String getCourseNumber() {

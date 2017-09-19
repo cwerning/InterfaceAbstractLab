@@ -14,8 +14,8 @@ public class AdvancedJavaCourse implements SchoolCourse {
     private String prerequisites;
 
     public AdvancedJavaCourse(String courseName, String courseNumber) {
-        this.courseName = courseName;
-        this.courseNumber = courseNumber;
+        setCourseName(courseName);
+        setCourseNumber(courseNumber);
     }
 
     @Override
